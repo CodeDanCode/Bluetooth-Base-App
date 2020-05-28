@@ -30,7 +30,7 @@ while running:
         print("Quit")
         running = False
     else:
-        print("Recieved %s" %data)
+        print("Received %s" %data)
 
 client_socket.close()
 server_socket.close()
