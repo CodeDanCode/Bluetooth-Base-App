@@ -224,11 +224,6 @@ public class MainActivity extends AppCompatActivity {
     private BluetoothSocket createBluetoothSocket(BluetoothDevice device) throws IOException {
 
         try {
-//            ////////////// this part helped fix the socket connection issue //////////
-//            Method method = device.getClass().getMethod("getUuids"); /// get all services
-//            ParcelUuid[] parcelUuids = (ParcelUuid[]) method.invoke(device); /// get all services
-//            ///// using parcelUuids 1 or 2 ] is what connected to the raspberry pi
-//            BluetoothSocket socket = device.createInsecureRfcommSocketToServiceRecord(parcelUuids[1].getUuid());
 
             Method method;
             method = device.getClass().getMethod("createRfcommSocket", new Class[] { int.class } );
