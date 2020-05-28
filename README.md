@@ -48,11 +48,10 @@ Once devices are paired and trusted change to the working directory in the RPi t
 ```
 python rpi_bluetooth.py
 ```
-once started open app on the android device and click the connect button. 
-This should show all devices that your phone has been paired to. 
-click on the raspberry pi that is listed. this should make the insecure connection for bluetooth communication.
-once connected the android app should display "Connected to RaspberryPi"
-click the send button and you should see "Received 1" in the Raspberry Pi terminal
+once started open app on the android device and click the connect button.  
+This should show all devices that your phone has been paired to.  
+click on the raspberry pi that is listed. this should make the insecure connection for bluetooth communication.  
+once connected the android app should display "Connected to RaspberryPi".  
+click the send button and you should see "Received 1" in the Raspberry Pi terminal.  
 
-and there you go you have successfully sent/received data between two devices using bluetooth
-
+and there you go you have successfully sent/received data between two devices using bluetooth.  
